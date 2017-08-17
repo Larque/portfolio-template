@@ -1,0 +1,1545 @@
+a { color: inherit; } 
+
+html { overflow-x: hidden; }
+
+body {
+  	background-color: #3a3a3a;
+	background-position: top center;
+	background-attachment: absolute;
+	height: 100%;
+	width: 100%;
+  	min-width: 100em;
+  	max-width: 100em;
+	min-height: 72em;
+	max-height: 150em; 
+	margin: 0em;
+	background-color: #fff;
+
+}	
+
+/*-----------------------------------------------------------------------
+=============================================================================
+                            										  Containers
+=============================================================================
+-------------------------------------------------------------------------*/
+
+.container {
+	background: url(https://cloud.githubusercontent.com/assets/7917600/12700265/694ab66e-c791-11e5-8017-8c70b52ada74.png);
+	background-repeat: repeat-x;
+	background-position: top center;
+	position: absolute;
+	height: 100%;
+	width: 77%;
+  	max-width: 80em;
+  	min-width: 60em;
+	min-height: 150em;
+	max-height: 200em; 
+	border: .1em solid #470047;
+	margin-top: 0em;
+	top: 0%;		
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);	
+
+
+}
+
+.about-container {
+	background: url(https://cloud.githubusercontent.com/assets/7917600/12638380/863b49e2-c551-11e5-9a70-1545921977dc.png);
+	background-repeat: repeat-x;
+	background-position: top center;
+	position: absolute;
+	height: 100%;
+	width: 77%;
+  	max-width: 80em;
+  	min-width: 60em;
+	min-height: 150em;
+	max-height: 200em; 
+	border: .1em solid #470047;
+	margin-top: 0em;
+	top: 0%;		
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);	
+	
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+
+#header {
+	z-index: 1000;
+
+}
+
+
+
+media screen and (min-width: 100px) and (orientation: landscape) {
+    .container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		device-height: 20px;
+		device-width: 5px;
+		margin-left: -55em;
+		}
+	#languages {
+		 min-width: 5em;
+		 max-width: 5em;
+		}
+	.about-container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		device-height: 20px;
+		device-width: 5px;
+		margin-left: -57em;
+		}
+		
+	body {
+		position: relative;
+		min-width: 90%;
+  		max-width: 90%;
+	}
+}
+
+
+media screen and (min-width: 100px) and (orientation: portrait) {
+    .container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		device-height: 20px;
+		device-width: 5px;
+		margin-left: -55em;
+		}
+	.about-container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		device-height: 20px;
+		device-width: 5px;
+		margin-left: -57em;
+		}
+		
+	body {
+		position: relative;
+		min-width: 90%;
+  		max-width: 90%;
+	}
+}
+
+
+media screen and (min-width: 100px) and (orientation: portrait) {
+     .container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		
+		device-height: 20px;
+		device-width: 100px;
+		margin-left: -60em;
+		background-color: red;
+		}
+		
+		
+		
+		
+		
+	
+}
+
+
+media screen and (min-width: 100px) and (orientation: portrait) {
+    container {
+position: relative;
+		background-color: blue;
+		left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+		}
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+edia only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+   .container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		device-height: 20px;
+		device-width: 5px;
+		margin-left: -60em;
+		}
+	#languages {
+		 min-width: 5em;
+		 max-width: 8em;
+		}
+	.about-container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		device-height: 20px;
+		device-width: 5px;
+		margin-left: -55em;
+		}
+		
+	body {
+		osition: relative;
+		min-width: 90%;
+  		max-width: 90%;
+	}
+}
+
+/* Portrait */
+dia only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  
+  
+  
+  
+  
+  
+}
+
+/* Landscape */
+dia only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+dia only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		device-height: 20px;
+		device-width: 5px;
+		margin-left: -60em;
+		}
+	#languages {
+		 min-width: 5em;
+		 max-width: 8em;
+		}
+	.about-container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		device-height: 20px;
+		device-width: 5px;
+		margin-left: -55em;
+		}
+		
+	body {
+		osition: relative;
+		min-width: 90%;
+  		max-width: 90%;
+	}
+}
+
+/* Portrait */
+dia only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+dia only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+dia only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	.container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		device-height: 20px;
+		device-width: 5px;
+		margin-left: -60em;
+		}
+	#languages {
+		 min-width: 5em;
+		 max-width: 8em;
+		}
+	.about-container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		device-height: 20px;
+		device-width: 5px;
+		margin-left: -55em;
+		}
+		
+	body {
+		min-width: 90%;
+  		max-width: 90%;
+	}
+}
+
+/* Portrait */
+dia only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+dia only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+dia only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+	.container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		device-height: 20px;
+		device-width: 5px;
+		margin-left: -60em;
+		}
+	#languages {
+		 min-width: 5em;
+		 max-width: 8em;
+		}
+	.about-container {
+        transform: translate(50%, -0%);
+        min-device-height: 100%;
+		device-height: 20px;
+		device-width: 5px;
+		margin-left: -55em;
+		}
+		
+	body {
+		min-width: 90%;
+  		max-width: 90%;
+	}
+}
+
+/* Portrait */
+dia only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+dia only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+
+/*-----------------------------------------------------------------------
+-------------------------------------------------------------------------
+                            										   Tables
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+
+
+/*=======================================
+    		ABOUT - background 
+=======================================*/
+
+.table1 {
+	padding-right: 2em;
+  	border-collapse: collapse;
+	background: #161343; /*#1613a3;*/
+	opacity: 1;
+	-moz-opacity: 1;  
+	 -khtml-opacity: 1;  
+	 filter: alpha(opacity=100); /* For IE8 and earlier */
+	z-index: 1;
+	width: 80%;
+	position: absolute;
+	top: 15em;
+	height: 40em;
+	min-width: 16em;
+	max-width: 75em;
+	border-radius: 8em;	
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+
+}
+
+
+
+
+/*-----------------------------
+		opening message
+-------------------------------*/
+.table2 {
+  	border-collapse: collapse;
+	position: absolute;
+	width: 50%;
+	z-index: 4;	
+	margin-left: 25%;
+	margin-top: 4em;
+	
+}
+
+
+/*------------------------------
+		Front page Main Examples
+-------------------------------*/
+.table3 { 
+  	border-collapse: collapse;
+	z-index: 10;
+	background: #000;
+	height: 150em;
+	width: 100%;
+	background: #000;
+	position: absolute;
+	margin-left: 50%;
+	min-height: 25em;
+	max-height: 30em;
+	top: 80em;
+	min-width: 16em;
+	max-width: 50em;	
+	left: 0%;
+	border-radius: 2em;	
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: black;
+	
+
+}
+
+.table3-1 { 
+  	border-collapse: collapse;
+	z-index: 10;
+	background: #000;
+	height: 150em;
+	width: 100%;
+	background: #000;
+	position: absolute;
+	margin-left: 50%;
+	min-height: 25em;
+	max-height: 30em;
+	top: 130em;
+	min-width: 16em;
+	max-width: 38em;	
+	left: 0%;
+	border-radius: 2em;	
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	ransform: translate(-50%, -50%);
+	background-color: black;
+	
+
+}
+
+/*------------------------------
+			footer
+-------------------------------*/
+.table4 {
+  	position: fixed;
+	vertical-align: top;
+	min-width: 90%;
+	max-width: 30%;
+ 	height: 5em;
+	width: 100%;
+	bottom: 0em;
+	z-index: 1000;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
+	background-image: -webkit-linear-gradient(right, #fff, #1f1125, #bb225f, #5f5fff, #fff);
+	background-image: -moz-linear-gradient(right, #fff, #1f1125, #bb225f, #5f5fff, #fff); /*#fa00ff - right, #1f1125, #bb225f, #5f5fff*/
+	background-image: -ms-linear-gradient(left, #111111, #440011);
+	background-image: -0-linear-gradient(left, #111111, #440011);		
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);	
+	opacity: .3;
+	-moz-opacity: 0.3;  
+    -khtml-opacity: 0.3;  
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+   
+}
+
+
+
+
+/*-----------------------------------------------------------------------
+-------------------------------------------------------------------------
+                              									 Tab Table
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+
+#tabtable {
+	top: 0em;	
+	left: 0%;
+	min-width: 60em;
+	max-width: 80em;	
+ 	order: 1em solid #333366; 
+ 	width: 100%;
+ 	Height: 50em;
+ 	position: absolute;
+	background-repeat: repeat-x;
+	background-position: top center;
+	opacity: .20;
+	-moz-opacity: 0.3;  
+	-khtml-opacity: 0.3;  
+    	filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+
+
+
+
+/*-----------------------------------------------------------------------
+-------------------------------------------------------------------------
+                          											 BACK
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+
+/*=======================================
+    		ABOUT - background 
+=======================================*/
+
+
+.back {
+	background: url(https://cloud.githubusercontent.com/assets/7917600/12638433/e906afb2-c551-11e5-87bf-e74ebb6cace5.png) no-repeat 0 0;
+ 	background-position: top center;
+ 	opacity: 0.3; 
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+	border: .25em solid #ff4f5f;/* #ff425a */
+	border-right: 0px;
+	border-top: 0px;
+	z-index: 100;
+	border-left: 0px;
+	width: 100.3%;
+	bottom: 0em;
+	min-height: 35em;
+	max-height: 30em;
+	margin-left: -.1%	;
+	border-top: .25em solid #111a9f;
+	
+	
+}
+/*-------------------------------------
+    		"welcome message" 
+---------------------------------------*/
+.back2 {
+	ackground: url(https://cloud.githubusercontent.com/assets/7917600/10737936/22d6541e-7bd2-11e5-851f-4b73f990ccc6.png) no-repeat 0 0;
+ 	background-color: white;
+ 	opacity: .8;
+    	filter: alpha(opacity=40); /* For IE8 and earlier */
+	border: 1em solid #ffffff; /* #ff425a */
+	position: absolute;
+	z-index: -10;
+	min-height: 10em;
+	max-height: 10em;
+	min-width: 15em;
+	max-width: 100em;
+	color: #fff;
+		
+	margin-top: 15em;	
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);	
+	background-position: center center;
+
+}
+
+img.ri {
+	position: absolute;
+	max-width: 100%;
+	top: 10%;
+	left: 10%;
+	border-radius: 5em;
+	box-shadow: 0 3em 6em rgba(0,0,0,0.9);
+}
+		
+img.ri:empty {	
+	top: 50%;	
+	left: 50%;	
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-0%, -50%);
+}
+
+
+
+
+/*-----------------------------------------------------------------------
+-------------------------------------------------------------------------
+                             										 Examples
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+
+
+.scan {
+	max-height: 50em;
+	min-height: 25em;
+	margin: auto;
+ }
+ 
+.home-image {   	
+   width: 10em;
+    height: 10em;
+    overflow: hidden;
+    margin: 1em;
+    position: relative;
+    
+}
+
+
+#strip-2 {
+  		width: 10em;
+    height: 10em;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.right {
+	position: absolute;
+    	right: 0px;
+	top: 0px;
+    	margin-top: 45px;
+	
+}	
+	
+	
+
+
+
+/*-----------------------------------------------------------------------
+-------------------------------------------------------------------------
+                             										 FONT STYLES
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.style1 {
+  	font-size: 1em;
+  	color: #FFFFFF;
+  	font-family:  Times New Roman,Georgia,Serif;
+}
+.style2 {
+  	font-size: 65px;
+  	color: #FFFFFF;
+	font-family: Arial Black, Gadget, sans-serif;
+ 	min-height: 10em;
+    	display: table-cell;
+    	
+
+}	
+
+.style4 {
+  	font-size: 1em;
+  	color: #FFFFFF;
+  	font-family: Times New Roman,Georgia,Serif;	
+	position:relative;
+  	bottom:-2px;
+    	
+	
+	
+}
+.style5 {
+  	font-size: 1em;
+  	color: #FFFFFF;
+  	font-family: Times New Roman,Georgia,Serif;
+	position:relative;
+    	bottom:.25em;
+    	vertical-align:bottom;
+		
+}
+/*-----------------------------------------------
+               TOP PAGE NAME
+-----------------------------------------------*/
+
+.style6 {
+	font-size: 1.5em;
+	color: #FFFFFF; 
+	position:relative;
+  	top: .25em;
+  	left: -1em;
+    vertical-align:bottom;
+    font-family: Arial Black, Gadget, sans-serif;
+	
+}
+.style8 {
+	font-size: 48px;
+  	color: #FFFFFF;
+  	font-family: Arial Black, Gadget, sans-serif;
+	
+	
+}
+
+.tabfont1 {
+	
+  	font-size: .7em;
+	font-family: Arial Black, Gadget, sans-serif;
+   	position: relative;
+   	top: 30%;
+   	left: 0em;
+
+
+}
+
+/*-----------------------------------------------------------------------
+-------------------------------------------------------------------------
+                             										BasePort
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+
+
+
+basePort2 {
+	z-index: 3;
+	color: #aaaaa5;
+	margin-left: 20%;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 1em;
+	border-top-left-radius: 1em;
+	text-align: center;
+	border: 5em solid #000000;
+	position: absolute;
+  	width: 50%;
+	height: 25em;
+	border-right: 0 px;
+	border-top:  0 px;
+	
+
+}
+
+
+/*=================================
+         	Front Page Examples
+=================================*/
+
+basePort1 {
+	height: 10%;
+	width: 18em;
+	color: #000;
+	/*transform:rotate(6deg);*/
+	/*-ms-transform:rotate(6deg); /* IE 9 */
+	/*-webkit-transform:rotate(6deg); /* Opera, Chrome, and Safari */
+	position: relative;
+	border-right: 5em;
+	border-top: .2em;
+	border-radius: 1em;
+	text-align: center;
+	margin-top: -30em;
+    	 
+}
+
+/*==================================================================
+-------------------------------------------------------------------------
+																     TAB STYLES
+-------------------------------------------------------------------------
+==================================================================*/
+
+.tabStyle {
+	height: 2.5em;
+	width: 15%;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border-top-left-radius: 0em;	
+	color: #ffffff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
+	background-image: -webkit-linear-gradient(right, #1f1118, #550011);
+	background-image: -moz-linear-gradient(right, #1f1118, #550011);
+	background-image: -ms-linear-gradient(left, #111111, #440011);
+	background-image: -0-linear-gradient(left, #111111, #440011);
+	border-right: 0px;
+	border-top: 0px;
+	position: fixed;
+	opacity: 0.9;
+	-moz-opacity: 0.9;  
+    	-khtml-opacity: 0.9;  
+    	filter: alpha(opacity=90); /* For IE8 and earlier */
+	text-align: left;
+	padding-left: 1em;
+	max-width: 15em;
+	min-width: 10em;
+	
+}
+
+tabStyle2 {
+	height: 4.5em;
+	width: 15%;
+	opacity: 0.95;
+    	filter: alpha(opacity=40);
+	z-index: 1000;
+	color: #ffffff;/*#f315ca;#599CFF;*/ 
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
+	background-image: -webkit-linear-gradient(left, #1f1118, #550011);
+	background-image: -moz-linear-gradient(top, #000000,#5f5f9f, #111111);/*#fa00ff*/
+	background-image: -ms-linear-gradient(left, #111111, #440011);
+	background-image: -0-linear-gradient(left, #111111, #440011);
+	margin-top: 5em;
+	position: fixed;
+}
+
+.tab1 {
+  	position: fixed;
+  	top: 0em;
+	z-index: -5;
+	margin-top: 0em;
+	margin-left: 40%;
+	margin-right:55%;
+
+  }
+.tab2 {
+ 	position: fixed;
+  	top: 0px;
+  	z-index: -4;
+	margin-top: 0em;
+	margin-left: 52%;
+		
+}
+.tab3 {
+ 	position: fixed;
+  	top: 0px;
+  	z-index: -3;
+	margin-top: 0em;
+	margin-left: 64%;
+		
+}
+.tab4 {
+ 	position: fixed;
+  	top: 0px;
+  	z-index: -2;
+	margin-top: 0em;
+	margin-left: 76%;
+	padding-right: -8em;	
+}
+
+
+.active {
+	height: 2.5em;
+	width: 14%;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	opacity: 1;
+    	filter: alpha(opacity=10);
+	color: #f315ca; /*#2f1a9f; #6a0000;*/
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
+	background-image: -webkit-linear-gradient(left, #111188, #550011);
+	background-image: -moz-linear-gradient(right, bottom, #1111af, #47D1FF, #ffffff);
+	background-image: -ms-linear-gradient(left, #111111, #440011);
+	background-image: -0-linear-gradient(left, #111111, #440011);
+	border: .25em solid #aa13ad;
+	border-right: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	max-width: 15em;
+	min-width: 10em;
+	
+
+}
+active2 {
+	height: 4.5em;
+	width: 15%;
+	opacity: 1;
+	color: #f315ca; /*#2f1a9f; #6a0000;*/
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
+	background-image: -webkit-linear-gradient(left, #111188, #550011);
+	background-image: -moz-linear-gradient(right, bottom, #1111af, #47D1FF, #ffffff);
+	background-image: -ms-linear-gradient(left, #111111, #440011);
+	background-image: -0-linear-gradient(left, #111111, #440011);
+	border-right: .25em solid #aa13ad;
+	border-left: .25em solid #aa13ad;
+	border-top: 0px;
+	border-bottom-left-radius: 1em;
+	
+
+
+}
+.front {
+	opacity: 0.9;
+    	filter: alpha(opacity=40); /* For IE8 and earlier */
+	border: 5em solid #000;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 1em;
+	border-top-left-radius: 1em;
+	height: 800px;
+	width: 1205px;
+	margin-left: 17%;
+	position:relative;
+  	bottom: 56em;
+    `	vertical-align:top;
+	
+}
+
+/*=================================
+         	footer
+=================================*/
+
+#footer-left {
+	font-size: .75em;
+	font-family: Arial, Gadget, sans-serif;
+	color: #fff;
+	width: 90%;
+  	text-align: left;
+	margin-top: .5em;
+	margin-left: 8.5em;
+}
+
+#footer-right {
+	font-size: .75em;
+	font-family: Arial, Gadget, sans-serif;
+	color: #fff;
+  	text-align: right;
+	margin-top: 3em;
+	margin-right: 8.5em;
+}
+
+
+
+
+stop {
+	border: 2em solid #333333;
+  	width: 100%;
+  	min-height: 40em;
+  	position: fixed;
+	background-image: -webkit-linear-gradient(right, #bb225f, #5f5fff);
+	background-image: -moz-linear-gradient(right, #1f1125, #bb225f, #5f5fff);
+	background-image: -ms-linear-gradient(left, #1f1125, #bb225f, #5f5fff);
+	background-image: -0-linear-gradient(left, #1f1125, #bb225f, #5f5fff);
+	margin-left: 8%;
+	z-index: 1000;
+	bottom: 35em;
+	opacity: 0.3;
+	-moz-opacity: 0.3;  
+    	-khtml-opacity: 0.3;  
+    	filter: alpha(opacity=70); /* For IE8 and earlier */
+	color: #ffffff;
+
+}
+
+
+
+.name {
+  	padding: 0 0 3ex 0.25ex;
+	color: #adadad;/*#ffffff;*/
+ 	font-size: 1em;
+	border-bottom-right-radius: .75em;
+	text-align: center;
+	min-width: 15em;
+	max-width: 20em;
+	max-height: 2em;
+	height: 1.25em;
+	width: 25em;
+	margin-left: 0%;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
+	background-image: -webkit-linear-gradient(right, #1f1125, #bb225f, #5f5fff);
+	background-image: -moz-linear-gradient(right, #1f1125, #bb225f, #5f5fff);
+	background-image: -ms-linear-gradient(left, #111111, #440011);
+	background-image: -0-linear-gradient(left, #111111, #440011);
+	z-index: 4;
+	opacity: 0.9;
+	-moz-opacity: 0.3;  
+    	-khtml-opacity: 0.3;  
+    	filter: alpha(opacity=70); /* For IE8 and earlier */
+	position: absolute;
+	margin-top: -.1em;
+	z-index: 1000;
+	
+}
+
+
+
+sidetab1 {
+	margin-top: -1em;
+	margin-left: 0%;
+	z-index: 1000;
+}
+sidetab2 {
+	margin-top: -5.6em;
+	margin-left: 15%;
+}
+sidetab3 {
+	margin-top: -5.6em;
+	margin-left: 30%;
+}
+sidetab4 {
+	margin-top: -5.6em;
+	margin-left: 45%;
+}
+sidetab1.stick {
+  	position: fixed;
+  	top: 15em;
+	margin-left: .5%;
+}
+sidetab2.stick {
+ 	position: fixed;
+  	top: 24.5em;
+  	z-index: 999;
+	margin-left: .5%;
+}
+sidetab3.stick {
+ 	position: fixed;
+  	top: 28em;
+  	z-index: 999;
+	margin-left: .5%;
+}
+sidetab4.stick {
+ 	position: fixed;
+  	top: 32em;
+  	z-index: 999;
+	margin-left: .5%;
+}
+/*=================================
+Text: "Brasslark"
+=================================*/
+#intro {
+	text-align: center;
+	color: #fd0090;
+	font-size: 8.5em;
+	margin-top: -.3em;
+	box-shadow: 0 5em 15em rgba(0,0,0.2,0.1);
+	border-radius: .5em;
+ 	font-family: Arial Black, Gadget, sans-serif;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	width: 10em;
+	position: relative;
+}
+
+#offer {
+	text-align: center;
+	color: #fd0090;
+	font-size: 1.5em;
+	margin-top: -3em;
+	border-radius: .5em;
+ 	font-family: Arial Black, Gadget, sans-serif;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	width: 20em;
+	position: relative;
+}
+
+
+/*=================================
+Text: "Graphic Design"
+=================================*/
+#title2 {
+	text-align: center;
+	color: #fd0090;
+	font-size: 4em;
+	margin-top: 12.25em;
+	border-radius: .5em;
+ 	font-family: Arial Black, Gadget, sans-serif;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	width: 10em;
+	position: fixed;
+}
+/*=================================
+Text: "ILLUSTRATION"
+=================================*/
+#title3 {
+	text-align: center;
+	color: #fd0090;
+	font-size: 4em;
+	margin-top: 25.5em;
+	border-radius: .5em;
+ 	font-family: Arial Black, Gadget, sans-serif;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	width: 10em;
+	position: fixed;
+}
+/*=================================
+Text: "CONTACT"
+=================================*/
+#title4 {
+	text-align: center;
+	color: #fd0090;
+	font-size: 1em;
+	top: 168.5em;
+	border-radius: .5em;
+ 	font-family: Arial Black, Gadget, sans-serif;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	width: 10em;
+	position: fixed;
+}
+
+#subheading {
+	text-align: center;
+	color: #fd0090;
+	font-size: 1em;
+	margin-top: 1em;
+	border-radius: .5em;
+ 	font-family: Arial Black, Gadget, sans-serif;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	width: 10em;
+	position: fixed;
+}
+
+
+
+
+/*=================================
+			Element menu box
+=================================*/
+
+sidetabs {
+	margin-left: 10%;
+	top: 58em;
+	height: 6em;
+	width: 82%;
+	border: .15em solid white;
+	background: #fff;
+	position: absolute;	
+	z-index: 1000;
+	
+} 
+
+#test {
+	margin-left: 0em;
+	position: fixed;
+	background: #000;
+	width: 100%;
+	
+	min-width: 40%;
+  	max-width: 95%;
+	min-height: 2.5em;
+	max-height: 15em; 
+	height: 2em;
+	z-index: 1000;	
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	opacity: 1;
+    	filter: alpha(opacity=1); /* For IE8 and earlier */
+}
+
+.space {
+	margin: -0.2em;
+	margin-bottom: 4em;
+}
+
+.imageText {
+	font-size: 1em;
+	font-family: Arial, Gadget, sans-serif;
+	color: #aaa;
+	width: 90%;
+  	vertical-align: 3em;
+}
+
+
+
+
+#about {
+	font-size: 1em;
+	font-family: Arial, Gadget, sans-serif;
+	color: #aaa;
+	width: 65%;
+  	top: 10em;
+	border: .1em solid #a155aa;
+	height: 50em;
+	opacity: 100;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+	position: absolute;
+	z-index: 50;	
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+}
+
+#profile {
+	box-shadow: 0 3em 6em rgba(0,0,0,0.9);
+	left: 50%;
+	top: -2em;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	position: absolute;
+}
+
+#about2 {
+	top: 27em;
+	position: absolute;
+	margin-left: 2em;
+	margin-right: 2em;
+	font-size: 1em;
+	font-family: Arial, Gadget, sans-serif;
+	color: #aaa;
+}
+
+#about3 {
+	position: relative;
+	margin-left: 2em;
+	margin-right: 2em;
+	background: lightgreen;
+	font-size: 1em;
+	font-family: Arial, Gadget, sans-serif;
+	color: #aaa;
+	top: 42em;
+}
+
+
+
+td { 	
+	order: .1em solid #fff;
+	order: .1em inset blue;
+}
+
+
+#myimage { 
+	images/brasslark_004.5.png;
+
+}
+
+
+/*=================================
+  Home: Gray back box
+=================================*/
+
+#languages {
+	top: 3.25em;
+	position: absolute;
+	height: 25em;
+	font-size: 5em;
+	font-family: Arial black, Gadget, sans-serif;
+	color: #ddd;
+	width: 9.25em;
+	Left: 50%;
+	text-align: center;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	opacity: .60;
+    	filter: alpha(opacity=60); /* For IE8 and earlier */
+
+}
+
+#back-text {
+	margin-left: .5em;
+	opacity: .40;
+    	filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+
+#home-bottom-box {
+	width: 32em;
+	height: 10em;
+	position: absolute;
+	background-color: #afffff;
+	bottom: -53em;
+	Left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	background: url(https://cloud.githubusercontent.com/assets/7917600/12638433/e906afb2-c551-11e5-87bf-e74ebb6cace5.png) no-repeat 0 0;
+	border-radius: 2em;
+}
+
+#home-bottom-box-text {
+	position: absolute;
+	text-align: center;
+	background: #fff;
+	font-size: 1em;
+	font-family: Arial, Gadget, sans-serif;
+	color: #aaa;
+	top: 0em;
+	Left: 50%;
+	width: 30em;
+	height: 8em;	
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+    `	padding: 2em;
+   	box-shadow: 0 3em 6em rgba(0,0,0,0.9);
+   	border-radius: 1em;
+}
+
+
+
+#home-image-frame {
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+#home-image-frame-1 {
+	width: 20em;
+	margin: auto;
+ 	position: absolute;
+ 	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+    clip: rect(6em,19em,22em,2em);
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+
+}
+
+#home-image-frame-2 {
+	width: 20em;
+	margin: auto;
+	margin-left: 15em;
+ 	position: absolute;
+ 	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+    	clip: rect(0em,19em,22em,4em);
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+}
+
+#home-image-frame-3 {
+	width: 20em;
+	margin: auto;
+	top: 10em;
+	margin-left: 35em;
+ 	position: absolute;
+ 	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+    	clip: rect(0em,19em,22em,4em);
+}
+
+.links-container {
+	background: url(https://cloud.githubusercontent.com/assets/7917600/12638380/863b49e2-c551-11e5-9a70-1545921977dc.png);
+	background-repeat: repeat-x;
+	background-position: top center;
+	position: absolute;
+	height: 100%;
+	width: 77%;
+  	max-width: 80em;
+  	min-width: 60em;
+	min-height: 150em;
+	max-height: 200em; 
+	border: .1em solid #470047;
+	margin-top: 0em;
+	top: 0%;		
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);	
+	
+}
+
+#quote {
+	position: absolute;
+	text-align: center;
+	background: #ccc;
+	font-size: 1em;
+	font-family: Arial, Gadget, sans-serif;
+	top: 37em;
+	Left: 50%;
+	width: 38em;
+	height: 4.5em;	
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+    padding: .5em;
+   	ox-shadow: 0 3em 6em rgba(0,0,0,0.9);
+   	border-radius: 1em;
+   	color: #000 
+
+}
+
+/*=================================
+         															LINKS PAGE
+=================================*/
+
+
+#links-background {
+	
+	font-family: Arial, Gadget, sans-serif;
+	color: #aaa;
+	width: 75%;
+  	top: 60em;
+	border: .1em solid #a155aa;
+	height: 30em;
+	opacity: 100;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+	position: absolute;
+	z-index: 50;	
+	left: 50%;
+	background: white;
+	-webkit-transform: translate(-50%, 0%);	
+	-moz-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+
+}
+
+#links-table {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 1em; /* Chrome, Safari, Opera */
+    -moz-column-gap: 1em; /* Firefox */
+    column-gap: 1em;
+
+    -webkit-column-rule: 1em outset #ff00ff; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1em outset #ff00ff; /* Firefox */
+    column-rule: 1em outset #ff00ff;
+    
+    border: .1em solid #a155aa;
+   
+}
+
+#links-heading {
+	top: -1em;
+	font-family: Arial, Gadget, sans-serif;
+	color: #aaa;
+	bottom: 0em;
+	text-align: left;
+	color: #fd0090;
+	font-size: 15em;	
+ 	font-family: Arial Black, Gadget, sans-serif;
+	position: relative;
+	z-index: 100;
+	letter-spacing: .025em;
+	line-height: 90%;
+}
+
+#links1 {
+ text-align:center; 
+	position: relative;
+	ext-align: center;
+	font-size: 1em;
+	font-family: Arial, Gadget, sans-serif;
+	color: #aaa;
+	width:33%; 
+    argin-left:auto; 
+    argin-right:auto; 
+    
+}
