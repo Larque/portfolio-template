@@ -19,12 +19,12 @@ body {
 
 /*-----------------------------------------------------------------------
 =============================================================================
-                            										  Containers
+   Containers
 =============================================================================
 -------------------------------------------------------------------------*/
 
 .container {
-	background: url(https://cloud.githubusercontent.com/assets/7917600/12700265/694ab66e-c791-11e5-8017-8c70b52ada74.png);
+	background: url(https://cloud.githubusercontent.com/assets/7917600/12638433/e906afb2-c551-11e5-87bf-e74ebb6cace5.png) no-repeat 0 0;
 	background-repeat: repeat-x;
 	background-position: top center;
 	position: absolute;
@@ -34,7 +34,7 @@ body {
   	min-width: 60em;
 	min-height: 150em;
 	max-height: 200em; 
-	border: .1em solid #470047;
+	order: .1em solid #470047;
 	margin-top: 0em;
 	top: 0%;		
 	left: 50%;
@@ -429,20 +429,19 @@ dia only screen
 
 
 /*------------------------------
-		Front page Main Examples
+		Famous Bird Watchers
 -------------------------------*/
 .table3 { 
   	border-collapse: collapse;
 	z-index: 10;
-	background: #000;
+	background: #444;
 	height: 150em;
 	width: 100%;
-	background: #000;
 	position: absolute;
 	margin-left: 50%;
 	min-height: 25em;
 	max-height: 30em;
-	top: 80em;
+	top: 100em;
 	min-width: 16em;
 	max-width: 50em;	
 	left: 0%;
@@ -452,8 +451,6 @@ dia only screen
 	-ms-transform: translate(-50%, -50%);
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	background-color: black;
-	
 
 }
 
@@ -573,13 +570,10 @@ dia only screen
 	
 }
 /*-------------------------------------
-    		"welcome message" 
+    		"website name" 
 ---------------------------------------*/
 .back2 {
-	ackground: url(https://cloud.githubusercontent.com/assets/7917600/10737936/22d6541e-7bd2-11e5-851f-4b73f990ccc6.png) no-repeat 0 0;
- 	background-color: white;
- 	opacity: .8;
-    	filter: alpha(opacity=40); /* For IE8 and earlier */
+ 	
 	border: 1em solid #ffffff; /* #ff425a */
 	position: absolute;
 	z-index: -10;
@@ -587,8 +581,7 @@ dia only screen
 	max-height: 10em;
 	min-width: 15em;
 	max-width: 100em;
-	color: #fff;
-		
+	color: #fff;	
 	margin-top: 15em;	
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
@@ -709,13 +702,13 @@ img.ri:empty {
 -----------------------------------------------*/
 
 .style6 {
-	font-size: 1.5em;
+	font-size: 20px;
 	color: #FFFFFF; 
 	position:relative;
   	top: .25em;
   	left: -1em;
     vertical-align:bottom;
-    font-family: Arial Black, Gadget, sans-serif;
+    font-family: 'Pacifico', cursive; 
 	
 }
 .style8 {
@@ -798,17 +791,13 @@ basePort1 {
 	border-top-left-radius: 0em;	
 	color: #ffffff;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
-	background-image: -webkit-linear-gradient(right, #1f1118, #550011);
+	background-image: -webkit-linear-gradient(145deg, #000044, #005fff,#001fff);
 	background-image: -moz-linear-gradient(right, #1f1118, #550011);
 	background-image: -ms-linear-gradient(left, #111111, #440011);
 	background-image: -0-linear-gradient(left, #111111, #440011);
 	border-right: 0px;
 	border-top: 0px;
 	position: fixed;
-	opacity: 0.9;
-	-moz-opacity: 0.9;  
-    	-khtml-opacity: 0.9;  
-    	filter: alpha(opacity=90); /* For IE8 and earlier */
 	text-align: left;
 	padding-left: 1em;
 	max-width: 15em;
@@ -974,20 +963,20 @@ stop {
 
 
 .name {
-  	padding: 0 0 3ex 0.25ex;
-	color: #adadad;/*#ffffff;*/
- 	font-size: 1em;
-	border-bottom-right-radius: .75em;
+  	padding: 0 0 12px 30px;
+	color: #ffffff;
+ 	font-size: 10px;
+	border-bottom-left-radius: 25px;
 	text-align: center;
 	min-width: 15em;
 	max-width: 20em;
-	max-height: 2em;
-	height: 1.25em;
+	max-height: 30px;
+	height: 40px;
 	width: 25em;
 	margin-left: 0%;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
-	background-image: -webkit-linear-gradient(right, #1f1125, #bb225f, #5f5fff);
-	background-image: -moz-linear-gradient(right, #1f1125, #bb225f, #5f5fff);
+	background-image: -webkit-linear-gradient(right, #195500, #555fff,#001fff);
+	background-image: -moz-linear-gradient(left, #111111, #440011);
 	background-image: -ms-linear-gradient(left, #111111, #440011);
 	background-image: -0-linear-gradient(left, #111111, #440011);
 	z-index: 4;
@@ -1047,9 +1036,10 @@ sidetab4.stick {
 Text: "Brasslark"
 =================================*/
 #intro {
-	text-align: center;
-	color: #fd0090;
-	font-size: 8.5em;
+	
+    text-align: center;
+	color: #fff;
+	font-size: 65px;
 	margin-top: -.3em;
 	box-shadow: 0 5em 15em rgba(0,0,0.2,0.1);
 	border-radius: .5em;
@@ -1062,11 +1052,13 @@ Text: "Brasslark"
 	transform: translate(-50%, 0%);
 	width: 10em;
 	position: relative;
+    background-clip:padding-box;
+    font-family: 'Pacifico', cursive; 
 }
 
 #offer {
 	text-align: center;
-	color: #fd0090;
+	color: #fff;
 	font-size: 1.5em;
 	margin-top: -3em;
 	border-radius: .5em;
@@ -1079,6 +1071,7 @@ Text: "Brasslark"
 	transform: translate(-50%, 0%);
 	width: 20em;
 	position: relative;
+    font-family: 'Pacifico', cursive; 
 }
 
 
@@ -1181,7 +1174,6 @@ sidetabs {
 	position: fixed;
 	background: #000;
 	width: 100%;
-	
 	min-width: 40%;
   	max-width: 95%;
 	min-height: 2.5em;
@@ -1194,8 +1186,12 @@ sidetabs {
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
 	transform: translate(-50%, 0%);
-	opacity: 1;
-    	filter: alpha(opacity=1); /* For IE8 and earlier */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
+	background-image: -webkit-linear-gradient(right, #000044 5%, #195500);
+	background-image: -moz-linear-gradient(right, #1f1118, #550011);
+	background-image: -ms-linear-gradient(left, #111111, #440011);
+	background-image: -0-linear-gradient(left, #111111, #440011);
+    border-radius: 0px 0px 25px 25px;
 }
 
 .space {
@@ -1453,22 +1449,24 @@ td {
 #quote {
 	position: absolute;
 	text-align: center;
-	background: #ccc;
-	font-size: 1em;
-	font-family: Arial, Gadget, sans-serif;
-	top: 37em;
+	
+	font-size: 30px;
+   font-family: 'Amatic SC', cursive; 
+    font-weight: 700;
+	top: 650px;
 	Left: 50%;
-	width: 38em;
-	height: 4.5em;	
+	width: 600px;
+	height: 380px;	
 	-webkit-transform: translate(-50%, 0%);	
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
 	transform: translate(-50%, 0%);
-    padding: .5em;
-   	ox-shadow: 0 3em 6em rgba(0,0,0,0.9);
-   	border-radius: 1em;
-   	color: #000 
+    padding: 45px;
+   background-image: url(img/Old-Paper-Texture-2.png);
+    background-size: cover;
+   	color: #5f1f1f; 
+        z-index:1000;
 
 }
 
