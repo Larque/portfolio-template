@@ -975,7 +975,7 @@ stop {
 	width: 25em;
 	margin-left: 0%;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
-	background-image: -webkit-linear-gradient(right, #195500, #555fff,#001fff);
+	background-image: -webkit-linear-gradient(right, #1a001a, #555fff,#001fff);
 	background-image: -moz-linear-gradient(left, #111111, #440011);
 	background-image: -ms-linear-gradient(left, #111111, #440011);
 	background-image: -0-linear-gradient(left, #111111, #440011);
@@ -1187,7 +1187,7 @@ sidetabs {
 	-o-transform: translate(-50%, 0%);
 	transform: translate(-50%, 0%);
     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
-	background-image: -webkit-linear-gradient(right, #000044 5%, #195500);
+	background-image: -webkit-linear-gradient(right, #000044 5%, #1a001a);
 	background-image: -moz-linear-gradient(right, #1f1118, #550011);
 	background-image: -ms-linear-gradient(left, #111111, #440011);
 	background-image: -0-linear-gradient(left, #111111, #440011);
