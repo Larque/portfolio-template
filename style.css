@@ -3,17 +3,17 @@ a { color: inherit; }
 html { overflow-x: hidden; }
 
 body {
-  	background-color: #3a3a3a;
-	background-position: top center;
-	background-attachment: absolute;
+  	
+	ackground-position: top center;
+	ackground-attachment: absolute;
 	height: 100%;
 	width: 100%;
   	min-width: 100em;
   	max-width: 100em;
-	min-height: 72em;
-	max-height: 150em; 
-	margin: 0em;
-	background-color: #fff;
+  
+	margin: 0px;
+	background-color: #aaa;
+    verflow-x: hidden;
 
 }	
 
@@ -24,16 +24,18 @@ body {
 -------------------------------------------------------------------------*/
 
 .container {
-	background: url(https://cloud.githubusercontent.com/assets/7917600/12638433/e906afb2-c551-11e5-87bf-e74ebb6cace5.png) no-repeat 0 0;
-	background-repeat: repeat-x;
+	ackground: url(https://cloud.githubusercontent.com/assets/7917600/12638433/e906afb2-c551-11e5-87bf-e74ebb6cace5.png) repeat-y;
+	background: #1f1439;
+    background-image: url(img/peacock2.jpg);
+    background-repeat: repeat-x;
 	background-position: top center;
 	position: absolute;
 	height: 100%;
 	width: 77%;
   	max-width: 80em;
   	min-width: 60em;
-	min-height: 150em;
-	max-height: 200em; 
+	min-height: 160em;
+	max-height: 150em; 
 	order: .1em solid #470047;
 	margin-top: 0em;
 	top: 0%;		
@@ -43,6 +45,7 @@ body {
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
 	transform: translate(-50%, 0%);	
+    
 
 
 }
@@ -56,8 +59,8 @@ body {
 	width: 77%;
   	max-width: 80em;
   	min-width: 60em;
-	min-height: 150em;
-	max-height: 200em; 
+	min-height: 50em;
+	max-height: 100em; 
 	border: .1em solid #470047;
 	margin-top: 0em;
 	top: 0%;		
@@ -84,297 +87,6 @@ a:link {
 
 
 
-media screen and (min-width: 100px) and (orientation: landscape) {
-    .container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		device-height: 20px;
-		device-width: 5px;
-		margin-left: -55em;
-		}
-	#languages {
-		 min-width: 5em;
-		 max-width: 5em;
-		}
-	.about-container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		device-height: 20px;
-		device-width: 5px;
-		margin-left: -57em;
-		}
-		
-	body {
-		position: relative;
-		min-width: 90%;
-  		max-width: 90%;
-	}
-}
-
-
-media screen and (min-width: 100px) and (orientation: portrait) {
-    .container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		device-height: 20px;
-		device-width: 5px;
-		margin-left: -55em;
-		}
-	.about-container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		device-height: 20px;
-		device-width: 5px;
-		margin-left: -57em;
-		}
-		
-	body {
-		position: relative;
-		min-width: 90%;
-  		max-width: 90%;
-	}
-}
-
-
-media screen and (min-width: 100px) and (orientation: portrait) {
-     .container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		
-		device-height: 20px;
-		device-width: 100px;
-		margin-left: -60em;
-		background-color: red;
-		}
-		
-		
-		
-		
-		
-	
-}
-
-
-media screen and (min-width: 100px) and (orientation: portrait) {
-    container {
-position: relative;
-		background-color: blue;
-		left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
-	-moz-transform: translate(-50%, 0%);
-	-ms-transform: translate(-50%, 0%);
-	-o-transform: translate(-50%, 0%);
-	transform: translate(-50%, 0%);
-		}
-}
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-edia only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-   .container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		device-height: 20px;
-		device-width: 5px;
-		margin-left: -60em;
-		}
-	#languages {
-		 min-width: 5em;
-		 max-width: 8em;
-		}
-	.about-container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		device-height: 20px;
-		device-width: 5px;
-		margin-left: -55em;
-		}
-		
-	body {
-		osition: relative;
-		min-width: 90%;
-  		max-width: 90%;
-	}
-}
-
-/* Portrait */
-dia only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-  
-  
-  
-  
-  
-  
-}
-
-/* Landscape */
-dia only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-}
-
-/* ----------- iPhone 5 and 5S ----------- */
-
-/* Portrait and Landscape */
-dia only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-	.container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		device-height: 20px;
-		device-width: 5px;
-		margin-left: -60em;
-		}
-	#languages {
-		 min-width: 5em;
-		 max-width: 8em;
-		}
-	.about-container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		device-height: 20px;
-		device-width: 5px;
-		margin-left: -55em;
-		}
-		
-	body {
-		osition: relative;
-		min-width: 90%;
-  		max-width: 90%;
-	}
-}
-
-/* Portrait */
-dia only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
-
-/* Landscape */
-dia only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-}
-
-/* ----------- iPhone 6 ----------- */
-
-/* Portrait and Landscape */
-dia only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-	.container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		device-height: 20px;
-		device-width: 5px;
-		margin-left: -60em;
-		}
-	#languages {
-		 min-width: 5em;
-		 max-width: 8em;
-		}
-	.about-container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		device-height: 20px;
-		device-width: 5px;
-		margin-left: -55em;
-		}
-		
-	body {
-		min-width: 90%;
-  		max-width: 90%;
-	}
-}
-
-/* Portrait */
-dia only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-dia only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-
-}
-
-/* ----------- iPhone 6+ ----------- */
-
-/* Portrait and Landscape */
-dia only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-	.container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		device-height: 20px;
-		device-width: 5px;
-		margin-left: -60em;
-		}
-	#languages {
-		 min-width: 5em;
-		 max-width: 8em;
-		}
-	.about-container {
-        transform: translate(50%, -0%);
-        min-device-height: 100%;
-		device-height: 20px;
-		device-width: 5px;
-		margin-left: -55em;
-		}
-		
-	body {
-		min-width: 90%;
-  		max-width: 90%;
-	}
-}
-
-/* Portrait */
-dia only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-dia only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
-
-
 /*-----------------------------------------------------------------------
 -------------------------------------------------------------------------
                             										   Tables
@@ -389,7 +101,7 @@ dia only screen
 .table1 {
 	padding-right: 2em;
   	border-collapse: collapse;
-	background: #161343; /*#1613a3;*/
+	background: #161343; 
 	opacity: 1;
 	-moz-opacity: 1;  
 	 -khtml-opacity: 1;  
@@ -400,7 +112,7 @@ dia only screen
 	top: 15em;
 	height: 40em;
 	min-width: 16em;
-	max-width: 75em;
+	max-width: 35em;
 	border-radius: 8em;	
 	left: 50%;
 	-webkit-transform: translate(-50%, 0%);	
@@ -442,10 +154,10 @@ dia only screen
 	min-height: 25em;
 	max-height: 30em;
 	top: 100em;
-	min-width: 16em;
-	max-width: 50em;	
+	min-width: 26em;
+	max-width: 32em;	
 	left: 0%;
-	border-radius: 2em;	
+	border-radius: 15px;	
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -454,7 +166,7 @@ dia only screen
 
 }
 
-.table3-1 { 
+table3-1 { 
   	border-collapse: collapse;
 	z-index: 10;
 	background: #000;
@@ -484,29 +196,32 @@ dia only screen
 			footer
 -------------------------------*/
 .table4 {
-  	position: fixed;
-	vertical-align: top;
-	min-width: 90%;
-	max-width: 30%;
+  	position: absolute;
+	ertical-align: top;
+	
  	height: 5em;
-	width: 100%;
-	bottom: 0em;
+	idth: 60%;
+	bottom: 0px;
 	z-index: 1000;
+    argin: 0px 10% 0px 10%;
+    
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
 	background-image: -webkit-linear-gradient(right, #fff, #1f1125, #bb225f, #5f5fff, #fff);
-	background-image: -moz-linear-gradient(right, #fff, #1f1125, #bb225f, #5f5fff, #fff); /*#fa00ff - right, #1f1125, #bb225f, #5f5fff*/
+	background-image: -moz-linear-gradient(right, #fff, #1f1125, #bb225f, #5f5fff, #fff); 
 	background-image: -ms-linear-gradient(left, #111111, #440011);
 	background-image: -0-linear-gradient(left, #111111, #440011);		
-	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
+	
+/*	-webkit-transform: translate(-50%, 0%);	
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
-	transform: translate(-50%, 0%);	
+	transform: translate(-50%, 0%);	*/
 	opacity: .3;
 	-moz-opacity: 0.3;  
     -khtml-opacity: 0.3;  
     filter: alpha(opacity=70); /* For IE8 and earlier */
+    padding: 0px;
+    margin: 0;
    
 }
 
@@ -524,7 +239,7 @@ dia only screen
 	left: 0%;
 	min-width: 60em;
 	max-width: 80em;	
- 	order: 1em solid #333366; 
+ 	border: 3em solid red; 
  	width: 100%;
  	Height: 50em;
  	position: absolute;
@@ -932,9 +647,10 @@ active2 {
 	font-size: .75em;
 	font-family: Arial, Gadget, sans-serif;
 	color: #fff;
-  	text-align: right;
-	margin-top: 3em;
+  	ext-align: right;
+	argin-top: 3em;
 	margin-right: 8.5em;
+   
 }
 
 
@@ -963,17 +679,17 @@ stop {
 
 
 .name {
-  	padding: 0 0 12px 30px;
+  	padding: 0 0 12px 32px;
 	color: #ffffff;
  	font-size: 10px;
 	border-bottom-left-radius: 25px;
 	text-align: center;
 	min-width: 15em;
 	max-width: 20em;
-	max-height: 30px;
-	height: 40px;
+	max-height: 27px;
+	height: 28px;
 	width: 25em;
-	margin-left: 0%;
+	margin-left: 2px;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
 	background-image: -webkit-linear-gradient(right, #1a001a, #555fff,#001fff);
 	background-image: -moz-linear-gradient(left, #111111, #440011);
@@ -1076,23 +792,25 @@ Text: "Brasslark"
 
 
 /*=================================
-Text: "Graphic Design"
+Title: "Famous Bird Watchers"
 =================================*/
 #title2 {
 	text-align: center;
-	color: #fd0090;
-	font-size: 4em;
-	margin-top: 12.25em;
+	color: #fff;
+	font-size: 40px;
+	margin-top: -90px;
 	border-radius: .5em;
- 	font-family: Arial Black, Gadget, sans-serif;
+ 	font-family: 'Amatic SC', cursive; 
 	left: 50%;
 	-webkit-transform: translate(-50%, 0%);	
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
 	transform: translate(-50%, 0%);
-	width: 10em;
-	position: fixed;
+	width: 300px;
+	position: absolute;
+    z-index: 999;
+    font-weight:300;
 }
 /*=================================
 Text: "ILLUSTRATION"
@@ -1278,26 +996,30 @@ td {
 
 
 /*=================================
-  Home: Gray back box
+  Home: Grey backbox
 =================================*/
 
 #languages {
-	top: 3.25em;
 	position: absolute;
-	height: 25em;
-	font-size: 5em;
-	font-family: Arial black, Gadget, sans-serif;
+	font-size: 225px;
+    font-kerning: -155px;
+    line-height: 220px;
+    letter-spacing: 30px;
+	font-family: 'Pacifico', cursive;
 	color: #ddd;
 	width: 9.25em;
-	Left: 50%;
+	left: 50%;
 	text-align: center;
 	-webkit-transform: translate(-50%, 0%);	
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
 	transform: translate(-50%, 0%);
-	opacity: .60;
+	opacity: .1;
     	filter: alpha(opacity=60); /* For IE8 and earlier */
+    font-weight: 500;
+    overflow-x: hidden;
+
 
 }
 
@@ -1308,7 +1030,7 @@ td {
 }
 
 
-#home-bottom-box {
+home-bottom-box {
 	width: 32em;
 	height: 10em;
 	position: absolute;
@@ -1324,7 +1046,7 @@ td {
 	border-radius: 2em;
 }
 
-#home-bottom-box-text {
+home-bottom-box-text {
 	position: absolute;
 	text-align: center;
 	background: #fff;
@@ -1351,8 +1073,8 @@ td {
     position:absolute;
     left: -100%;
     right: -100%;
-    top: -100%;
-    bottom: -100%;
+    op: -100%;
+    ottom: -100%;
     margin: auto;
     min-height: 100%;
     min-width: 100%;
@@ -1471,7 +1193,7 @@ td {
 }
 
 /*=================================
-         															LINKS PAGE
+         				LINKS PAGE
 =================================*/
 
 
