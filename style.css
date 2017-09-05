@@ -3,20 +3,13 @@ a { color: inherit; }
 html { overflow-x: hidden; }
 
 body {
-  	
-	ackground-position: top center;
-	ackground-attachment: absolute;
-	height: 100%;
-	width: 100%;
-  	in-height: 120em;
-	ax-height: 130em; 
-    eight: 1120px;
-	margin: 0px;
+	eight: 100%;
+	idth: 100%;
+	margin: auto;
 	background-color: #aaa;
-    verflow-x: hidden;
-     display:table;
-    min-height: 100%;
-
+    osition: absolute;
+    adding: 0;
+    ottom: 0;
 }	
 
 /*-----------------------------------------------------------------------
@@ -26,52 +19,27 @@ body {
 -------------------------------------------------------------------------*/
 
 .container {
-	ackground: url(https://cloud.githubusercontent.com/assets/7917600/12638433/e906afb2-c551-11e5-87bf-e74ebb6cace5.png) repeat-y;
 	background: #1f1439;
     background-image: url(img/peacock2.jpg);
     background-repeat: repeat-x;
 	background-position: top center;
-	position: absolute;
-	height: 100%;
-	width: 77%;
+	width: 80%;
   	max-width: 80em;
-  	min-width: 60em;
-	min-height: 60em;
-	max-height: 60em; 
-	margin-top: 0em;
-	top: 0%;		
-	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
-	-moz-transform: translate(-50%, 0%);
-	-ms-transform: translate(-50%, 0%);
-	-o-transform: translate(-50%, 0%);
-	transform: translate(-50%, 0%);	
-    min-height: calc(420vh - 50px);
-
-
+  	min-width: 40em;
+    margin: 0 10% 0px 10%;
+   position: relative;
+    min-height: 330vh;
+    bottom: 0;
+    
 }
 
-.about-container {
-	background: url(https://cloud.githubusercontent.com/assets/7917600/12638380/863b49e2-c551-11e5-9a70-1545921977dc.png);
-	background-repeat: repeat-x;
-	background-position: top center;
+.birds-container {
+	background-color: #003;
 	position: absolute;
-	height: 100%;
-	width: 77%;
-  	max-width: 80em;
-  	min-width: 60em;
-	min-height: 50em;
-	max-height: 100em; 
-	border: .1em solid #470047;
-	margin-top: 0em;
-	top: 0%;		
-	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
-	-moz-transform: translate(-50%, 0%);
-	-ms-transform: translate(-50%, 0%);
-	-o-transform: translate(-50%, 0%);
-	transform: translate(-50%, 0%);	
-	
+	width: 80%;
+    margin: 0px 10% 0 10%;
+  	min-width: 40em;
+    align-content: center;
 }
 
 
@@ -132,11 +100,11 @@ a:link {
 -------------------------------*/
 .table2 {
   	border-collapse: collapse;
-	position: absolute;
-	width: 50%;
-	z-index: 4;	
-	margin-left: 25%;
-	margin-top: 4em;
+	position: relative;
+	idth: 50%;
+	z-index: 10001;	
+	argin-left: 25%;
+	argin-top: 4em;
 	
 }
 
@@ -196,27 +164,29 @@ table3-1 {
 
 	/*------------------------------		footer -------------------------------*/
 
-.bottom {
+.bottom-bar {
 	width: 100%;
-	z-index: 1000;
+	z-index: 1001;
 	background: #000;
     padding: 0px;
     height: 50px;
-    position: absolute;
+    position: relative;
     bottom: 0px; 
-    min-height: calc(10vh - 40px);
-    
+    margin: 0 10% 0 10%;
+    min-height: 50px;
+    width: 80%;
 }
 
 .info-footer {
-    width: 100%;
+    width: 80%;
 	z-index: 1000;
 	background: #555;
     padding: 0px;
-    
-    position: absolute;
+    margin: 0 auto;
+    position: relative;
     bottom: 0px; 
-    min-height: calc(80vh - 50px);
+    min-height: 400px;
+    height: 400px;
     
 }
 
@@ -294,7 +264,7 @@ table3-1 {
 -------------------------------------------------------------------------*/
 
 /*=======================================
-    		ABOUT - background 
+    		birds - background 
 =======================================*/
 
 
@@ -317,27 +287,112 @@ table3-1 {
 	
 	
 }
+
+#worldmap {
+    margin: 100px 5% 0 5%;
+    width: 90%;
+    position: relative;
+    padding: 0;
+    display: block;
+    min-width: 400px;
+}
+
+
+#list-box {
+    margin: 10px 5% 0 5%;
+    padding: 0px;
+    align-content: center;
+    ext-align: center;
+    
+}
+
+.list-item td {
+    padding: 20px;
+    float: left;
+}
+
+#namerica {
+background-color: cadetblue;      
+}
+#samerica {
+background-color: orangered;
+}
+#europe {
+background-color: darkblue;
+}
+#africa {
+background-color: forestgreen;
+}
+#asia {
+background-color: saddlebrown;
+}
+#australia {
+background-color: purple;
+}
+#antartica {
+background-color: black;
+}
+
+.bird-list{
+  color: beige;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    loat: left;
+    idth: 50%;
+     border: 1px solid #777;
+    padding: 10px;
+    font-size: 28px;
+    isplay: block;
+    margin: 0 auto;
+    in-height: 35%;
+  
+    
+}
+
+.list-table {
+    text-align: center;
+      color: beige;
+   margin: 0 auto;
+    text-align: center; 
+    loat: left;
+     border: 1px solid #fff;
+    padding: 5px 10px 10px 10px;
+    in-height: 200px;
+    in-width: 200px;
+    width: 96%;
+    margin: 0 2% 0 %2;
+}
+
+.list-thead {
+    font-size: 30px;
+    font-weight: 900;
+   text-align: center;
+    background-color: #fff;
+    adding: 5px;
+    color: black;
+    border-radius: 10px;
+    opacity: .5;
+     width: 100%;
+    margin: 0 5% 0 %5;
+    
+}
 /*-------------------------------------
     		"website name" 
 ---------------------------------------*/
 .back2 {
  	
-	border: 1em solid #ffffff; /* #ff425a */
+	border: 1em solid #ffffff;
 	position: absolute;
-	z-index: -10;
+	z-index: 10000;
 	min-height: 10em;
 	max-height: 10em;
-	min-width: 15em;
-	max-width: 100em;
+	min-width: 500px;
+	max-width: 800px;
 	color: #fff;	
-	margin-top: 15em;	
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);	
-	background-position: center center;
+	
+    margin: 100px 10% 0 10%;
+    height: 100%;
+	width: 80%;
 
 }
 
@@ -402,9 +457,6 @@ img.ri:empty {
 	
 }	
 	
-	
-
-
 
 /*-----------------------------------------------------------------------
 -------------------------------------------------------------------------
@@ -788,7 +840,7 @@ Text: "Brasslark"
 	
     text-align: center;
 	color: #fff;
-	font-size: 65px;
+	font-size: 50px;
 	margin-top: -.3em;
 	box-shadow: 0 5em 15em rgba(0,0,0.2,0.1);
 	border-radius: .5em;
@@ -805,13 +857,11 @@ Text: "Brasslark"
     font-family: 'Pacifico', cursive; 
 }
 
-#offer {
+#subtitle {
 	text-align: center;
 	color: #fff;
-	font-size: 1.5em;
-	margin-top: -3em;
-	border-radius: .5em;
- 	font-family: Arial Black, Gadget, sans-serif;
+	font-size: 30px;
+	margin-top: -45px;
 	left: 50%;
 	-webkit-transform: translate(-50%, 0%);	
 	-moz-transform: translate(-50%, 0%);
@@ -1036,7 +1086,7 @@ td {
 	position: absolute;
 	font-size: 225px;
     font-kerning: -155px;
-    line-height: 220px;
+    line-height: 200px;
     letter-spacing: 30px;
 	font-family: 'Pacifico', cursive;
 	color: #ddd;
@@ -1052,7 +1102,7 @@ td {
     	filter: alpha(opacity=60); /* For IE8 and earlier */
     font-weight: 500;
     overflow-x: hidden;
-
+    overflow-y: hidden; 
 
 }
 
