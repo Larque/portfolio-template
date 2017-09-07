@@ -103,6 +103,9 @@ body {
     align-content: center;
 }
 
+.facts-container-1 {
+        margin: 100px 10% 10% 10%;
+}
 
 
 a:link {
@@ -1360,10 +1363,11 @@ home-bottom-box-text {
 
 .fact-card {
     width: 80%;
-    margin: auto;
+    margin: 5% 5% 5% 5%;
     height: 300px;
     ackground-color: #fff;
     vertical-align: middle; 
+    position: relative;
   
 }
 
