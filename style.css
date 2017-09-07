@@ -3,7 +3,7 @@ a { color: inherit; }
 html { overflow-x: hidden; }
 
 body {
-	eight: 100%;
+	height: 100%;
 	idth: 100%;
 	margin: auto;
 	background-color: #aaa;
@@ -11,6 +11,34 @@ body {
     adding: 0;
     ottom: 0;
 }	
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+   
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 310px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+
+}
 
 /*-----------------------------------------------------------------------
 =============================================================================
@@ -28,16 +56,49 @@ body {
   	min-width: 40em;
     margin: 0 10% 0px 10%;
    position: relative;
-    min-height: 330vh;
+    min-height: 380vh;
     bottom: 0;
     
 }
+
+
 
 .birds-container {
 	background-color: #003;
 	position: absolute;
 	width: 80%;
     margin: 0px 10% 0 10%;
+  	min-width: 40em;
+    align-content: center;
+}
+
+.about-container {
+	background-color: #003;
+	position: absolute;
+	width: 80%;
+    margin: 0px 10% 0 10%;
+  	min-width: 500px;
+    align-content: center;
+    in-height: calc(100% - 60px); 
+    height: 220vh;
+    z-index: -100;
+}
+
+
+.links-container {
+    background-color: #003;
+	position: absolute;
+	width: 80%;
+    margin: 0px 10% 0 10%;
+  	min-width: 40em;
+    align-content: center;
+}
+
+.links-container2 {
+    background-color: #003;
+	position: absolute;
+	width: 80%;
+    margin: 500px 10% 0 10%;
   	min-width: 40em;
     align-content: center;
 }
@@ -58,10 +119,16 @@ a:link {
 
 /*-----------------------------------------------------------------------
 -------------------------------------------------------------------------
-                            										   Tables
+                            										  home page
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------*/
 
+
+.introbird {
+    position: relative;
+    margin: auto;
+    width: 200px;
+}
 
 /*=======================================
     		ABOUT - background 
@@ -257,14 +324,8 @@ table3-1 {
 
 
 
-/*-----------------------------------------------------------------------
--------------------------------------------------------------------------
-                          											 BACK
--------------------------------------------------------------------------
--------------------------------------------------------------------------*/
-
 /*=======================================
-    		birds - background 
+    		birds page
 =======================================*/
 
 
@@ -288,8 +349,20 @@ table3-1 {
 	
 }
 
+.birds-text1 {
+    color: beige;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+     border: 1px solid #777;
+    padding: 10px;
+    font-size: 28px;
+    margin: 100px 0 0 0;
+ 
+    
+}
+
 #worldmap {
-    margin: 100px 5% 0 5%;
+    margin: 25px 5% 0 5%;
     width: 90%;
     position: relative;
     padding: 0;
@@ -383,7 +456,7 @@ background-color: black;
  	
 	border: 1em solid #ffffff;
 	position: absolute;
-	z-index: 10000;
+	z-index: 100;
 	min-height: 10em;
 	max-height: 10em;
 	min-width: 500px;
@@ -393,7 +466,7 @@ background-color: black;
     margin: 100px 10% 0 10%;
     height: 100%;
 	width: 80%;
-
+    background-color: rgba(31,20,57,.6);
 }
 
 img.ri {
@@ -460,7 +533,7 @@ img.ri:empty {
 
 /*-----------------------------------------------------------------------
 -------------------------------------------------------------------------
-                             										 FONT STYLES
+                             										font styles
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------*/
 .style1 {
@@ -497,6 +570,22 @@ img.ri:empty {
     	vertical-align:bottom;
 		
 }
+
+.text-style1 {
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+ 	font-family: 'Amatic SC', cursive; 
+	
+}
+.text-style-h1 {
+    text-align: center;
+	color: #fff;
+	font-size: 36px;
+ 	font-family: 'Amatic SC', cursive; 
+    font-weight: 700;
+}
+
 /*-----------------------------------------------
                TOP PAGE NAME
 -----------------------------------------------*/
@@ -521,40 +610,17 @@ img.ri:empty {
 
 .tabfont1 {
 	
-  	font-size: .7em;
-	font-family: Arial Black, Gadget, sans-serif;
+  	font-size: 18px;
+	font-family: 'Amatic SC', cursive; 
    	position: relative;
    	top: 30%;
    	left: 0em;
+    letter-spacing: 3px;
+    font-weight: 600;
 
 
 }
 
-/*-----------------------------------------------------------------------
--------------------------------------------------------------------------
-                             										BasePort
--------------------------------------------------------------------------
--------------------------------------------------------------------------*/
-
-
-
-basePort2 {
-	z-index: 3;
-	color: #aaaaa5;
-	margin-left: 20%;
-	border-bottom-left-radius: 2em;
-	border-bottom-right-radius: 1em;
-	border-top-left-radius: 1em;
-	text-align: center;
-	border: 5em solid #000000;
-	position: absolute;
-  	width: 50%;
-	height: 25em;
-	border-right: 0 px;
-	border-top:  0 px;
-	
-
-}
 
 
 /*=================================
@@ -602,6 +668,7 @@ basePort1 {
 	padding-left: 1em;
 	max-width: 15em;
 	min-width: 10em;
+    
 	
 }
 
@@ -626,7 +693,7 @@ tabStyle2 {
   	top: 0em;
 	z-index: -5;
 	margin-top: 0em;
-	margin-left: 40%;
+	margin-left: 35%;
 	margin-right:55%;
 
   }
@@ -635,7 +702,7 @@ tabStyle2 {
   	top: 0px;
   	z-index: -4;
 	margin-top: 0em;
-	margin-left: 52%;
+	margin-left: 50%;
 		
 }
 .tab3 {
@@ -643,7 +710,7 @@ tabStyle2 {
   	top: 0px;
   	z-index: -3;
 	margin-top: 0em;
-	margin-left: 64%;
+	margin-left: 65%;
 		
 }
 .tab4 {
@@ -651,7 +718,7 @@ tabStyle2 {
   	top: 0px;
   	z-index: -2;
 	margin-top: 0em;
-	margin-left: 76%;
+	margin-left: 80%;
 	padding-right: -8em;	
 }
 
@@ -855,12 +922,14 @@ Text: "Brasslark"
 	position: relative;
     background-clip:padding-box;
     font-family: 'Pacifico', cursive; 
+    
 }
 
 #subtitle {
 	text-align: center;
-	color: #fff;
-	font-size: 30px;
+	color: rgba(255,255,255,1);
+    background-clip:content-box;
+	font-size: 40px;
 	margin-top: -45px;
 	left: 50%;
 	-webkit-transform: translate(-50%, 0%);	
@@ -868,10 +937,15 @@ Text: "Brasslark"
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
 	transform: translate(-50%, 0%);
-	width: 20em;
+	width: 400px;
 	position: relative;
-    font-family: 'Pacifico', cursive; 
+    font-family: 'Amatic SC', cursive; 
+    font-weight: 800;
+    background-color: rgba(0,255,255,.5);
+    border-radius: 25px;
 }
+
+
 
 
 /*=================================
@@ -895,25 +969,8 @@ Title: "Famous Bird Watchers"
     z-index: 999;
     font-weight:300;
 }
-/*=================================
-Text: "ILLUSTRATION"
-=================================*/
-#title3 {
-	text-align: center;
-	color: #fd0090;
-	font-size: 4em;
-	margin-top: 25.5em;
-	border-radius: .5em;
- 	font-family: Arial Black, Gadget, sans-serif;
-	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
-	-moz-transform: translate(-50%, 0%);
-	-ms-transform: translate(-50%, 0%);
-	-o-transform: translate(-50%, 0%);
-	transform: translate(-50%, 0%);
-	width: 10em;
-	position: fixed;
-}
+
+
 /*=================================
 Text: "CONTACT"
 =================================*/
@@ -922,23 +979,6 @@ Text: "CONTACT"
 	color: #fd0090;
 	font-size: 1em;
 	top: 168.5em;
-	border-radius: .5em;
- 	font-family: Arial Black, Gadget, sans-serif;
-	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
-	-moz-transform: translate(-50%, 0%);
-	-ms-transform: translate(-50%, 0%);
-	-o-transform: translate(-50%, 0%);
-	transform: translate(-50%, 0%);
-	width: 10em;
-	position: fixed;
-}
-
-#subheading {
-	text-align: center;
-	color: #fd0090;
-	font-size: 1em;
-	margin-top: 1em;
 	border-radius: .5em;
  	font-family: Arial Black, Gadget, sans-serif;
 	left: 50%;
@@ -1009,26 +1049,49 @@ sidetabs {
 }
 
 
+.about-image {
+    margin: 80px 15% 0 15%;
+    width: 70%;
+    position: relative;
+    padding: 0;
+    display: inline-block;
+    min-width: 500px;
+    align-content: center;
+    float:inherit;
+    ax-width: 100%;
+    in-height: 100px;
 
+}
 
-#about {
-	font-size: 1em;
+.images {
+    align-content: center;
+    margin: 0 auto;
+    osition: relative;
+    top: 100px;
+    min-width: 400px;
+    
+    
+}
+
+#about-text {
+	font-size: 14px;
 	font-family: Arial, Gadget, sans-serif;
 	color: #aaa;
-	width: 65%;
-  	top: 10em;
-	border: .1em solid #a155aa;
-	height: 50em;
-	opacity: 100;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
-	position: absolute;
-	z-index: 50;	
-	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
-	-moz-transform: translate(-50%, 0%);
-	-ms-transform: translate(-50%, 0%);
-	-o-transform: translate(-50%, 0%);
-	transform: translate(-50%, 0%);
+	width: 90%;
+    min-width: 400px;
+  	margin: 0 auto;
+	border: 1px solid #fff;
+    display: flex;
+    padding: 3%;
+	position: relative;
+	z-index: 50;
+    top: 50px;
+    text-align: justify;
+    
+}
+
+.gutter {
+    min-width: 5%;
 }
 
 #profile {
@@ -1071,12 +1134,26 @@ td {
 	order: .1em inset blue;
 }
 
-
-#myimage { 
-	images/brasslark_004.5.png;
-
+#links {
+     float: left;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    margin: 20px 10% 0 10%;
+    padding: 10px 0 0 0;
 }
 
+.link-text {
+     font-family: 'Amatic SC', cursive; 
+    color: #fff;
+    width: 30%;
+    display: inline-block;
+    position: absolute;
+    float: left;
+    top: 100px;
+   
+    
+}
 
 /*=================================
   Home: Grey backbox
@@ -1228,28 +1305,8 @@ home-bottom-box-text {
     	clip: rect(0em,19em,22em,4em);
 }
 
-.links-container {
-	background: url(https://cloud.githubusercontent.com/assets/7917600/12638380/863b49e2-c551-11e5-9a70-1545921977dc.png);
-	background-repeat: repeat-x;
-	background-position: top center;
-	position: absolute;
-	height: 100%;
-	width: 77%;
-  	max-width: 80em;
-  	min-width: 60em;
-	min-height: 150em;
-	max-height: 200em; 
-	border: .1em solid #470047;
-	margin-top: 0em;
-	top: 0%;		
-	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
-	-moz-transform: translate(-50%, 0%);
-	-ms-transform: translate(-50%, 0%);
-	-o-transform: translate(-50%, 0%);
-	transform: translate(-50%, 0%);	
-	
-}
+
+
 
 #quote {
 	position: absolute;
@@ -1271,78 +1328,74 @@ home-bottom-box-text {
    background-image: url(img/Old-Paper-Texture-2.png);
     background-size: cover;
    	color: #5f1f1f; 
-        z-index:1000;
+        z-index:100;
 
 }
 
 /*=================================
-         				LINKS PAGE
+         				links page
 =================================*/
 
 
-#links-background {
-	
-	font-family: Arial, Gadget, sans-serif;
-	color: #aaa;
-	width: 75%;
-  	top: 60em;
-	border: .1em solid #a155aa;
-	height: 30em;
-	opacity: 100;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
-	position: absolute;
-	z-index: 50;	
-	left: 50%;
-	background: white;
-	-webkit-transform: translate(-50%, 0%);	
-	-moz-transform: translate(-50%, 0%);
-	-ms-transform: translate(-50%, 0%);
-	-o-transform: translate(-50%, 0%);
-	transform: translate(-50%, 0%);
 
+.links-text1 {
+    width: 400px;
+	position: relative;
+    margin: 0 auto;
+    border-radius: .5em;
 }
 
-#links-table {
-	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
+/*=================================
+         				about us page
+=================================*/
 
-    -webkit-column-gap: 1em; /* Chrome, Safari, Opera */
-    -moz-column-gap: 1em; /* Firefox */
-    column-gap: 1em;
-
-    -webkit-column-rule: 1em outset #ff00ff; /* Chrome, Safari, Opera */
-    -moz-column-rule: 1em outset #ff00ff; /* Firefox */
-    column-rule: 1em outset #ff00ff;
-    
-    border: .1em solid #a155aa;
+.about-text-h1 {
    
+    margin: 75px 0 0 0;
 }
 
-#links-heading {
-	top: -1em;
-	font-family: Arial, Gadget, sans-serif;
-	color: #aaa;
-	bottom: 0em;
-	text-align: left;
-	color: #fd0090;
-	font-size: 15em;	
- 	font-family: Arial Black, Gadget, sans-serif;
-	position: relative;
-	z-index: 100;
-	letter-spacing: .025em;
-	line-height: 90%;
+/*=================================
+         		facts page
+=================================*/
+
+.fact-card {
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    ackground-color: #fff;
+    vertical-align: middle; 
+  
 }
 
-#links1 {
- text-align:center; 
-	position: relative;
-	ext-align: center;
-	font-size: 1em;
-	font-family: Arial, Gadget, sans-serif;
-	color: #aaa;
-	width:33%; 
-    argin-left:auto; 
-    argin-right:auto; 
+.fact-1 {
+    width: 50%;
+    position: relative;
+    vertical-align: middle;
+    display: table-cell;
+    margin: 1% 0 1% 0;
+    border: 1px solid white;
+    padding: 10px;
+    color: #fff;
+    vertical-align: text-top;
+    min-height: 800px;
+    position: relative;
+     min-height: 300px;
+    height: 200px;
+}
+
+.fact-text {
+    margin: 1% 1% 1% 1%;
+    border: 1px solid #fff;
+    padding: 5%;
+    width: 82%;
+    ax-width: 450px;
+    display: grid;
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Amatic SC', cursive; 
+    min-height: 100px;
+    height: 70%;
     
 }
+
