@@ -1418,18 +1418,19 @@ home-bottom-box-text {
 }
 
 .fact-text {
-    margin: 1% 1% 1% 1%;
-    border: 1px solid #fff;
-    padding: 5%;
-    width: 82%;
+    margin: 1% 1% 5% 1%;
+    order: 1px solid #fff;
+    padding: 10%;
+    width: 70%;
     ax-width: 450px;
     display: grid;
     position: absolute;
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 2px;
     font-family: 'Amatic SC', cursive;
     min-height: 100px;
-    height: 70%;
+    height: auto;
+    background-color: rgba(155,0,0,.2);
 
 }
 
@@ -1437,14 +1438,11 @@ home-bottom-box-text {
          		facts page alternative
 =================================*/
 .fact-cardb {
-    width: 90%;
+    idth: 90%;
     margin: 1% 5% 5% 5%;
-    eight: 300px;
-    ackground-color: #fff;
     vertical-align: middle;
-    osition: relative;
     min-width: 300px;
-		ackground-color: red;
+
 
 
 }
@@ -1455,15 +1453,16 @@ home-bottom-box-text {
     vertical-align: middle;
     display: table-cell;
     margin: 5% 0 5% 0;
-    border: 1px solid white;
+    border: 1px solid #fff;
     padding: 10px;
     color: #fff;
     vertical-align: text-top;
-    min-height: 200px;
+    min-height: 300px;
     position: relative;
-     min-height: 300px;
-    height: 200px;
-    max-height: 300px;
+     min-height: 350px;
+    height: 300px;
+    max-height: 370px;
+
 }
 
 .fact-textb {
@@ -1480,5 +1479,13 @@ home-bottom-box-text {
     min-height: 100px;
     height: 70%;
 		vertical-align: middle;
+
+}
+
+@media only screen and (min-width: 380px) and (max-width: 1080px) {
+.fact-text {
+  font-size: 24px;
+
+  }
 
 }
