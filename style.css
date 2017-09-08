@@ -58,14 +58,15 @@ body {
 	background: #1f1439;
     background-image: url(img/peacock2.jpg);
     background-repeat: repeat-x;
-	background-position: top center;
-	width: 80%;
-  	max-width: 80em;
-  	min-width: 40em;
+	   background-position: top center;
+	 width: 80%;
+  	ax-width: 80em;
+  	min-width: 800px;
     margin: 0 10% 0px 10%;
    position: relative;
     min-height: 380vh;
     bottom: 0;
+
 
 }
 
@@ -253,6 +254,7 @@ table3-1 {
     margin: 0 10% 0 10%;
     min-height: 50px;
     width: 80%;
+    min-width: 800px;
 }
 
 .info-footer {
@@ -260,12 +262,13 @@ table3-1 {
 	z-index: 1000;
 	background: #555;
     padding: 0px;
-    margin: 0 auto;
+    margin: 0 10% 0 10%;
     position: relative;
     bottom: 0px;
     min-height: 400px;
     height: 400px;
-
+    min-width: 800px;
+      display: inline-flex;
 }
 
 .info-footer-text1 {
