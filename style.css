@@ -89,7 +89,7 @@ body {
   	min-width: 500px;
     align-content: center;
     in-height: calc(100% - 60px);
-    height: 220vh;
+    height: 150vh;
     z-index: -100;
 }
 
@@ -1418,17 +1418,16 @@ home-bottom-box-text {
 }
 
 .fact-text {
-    margin: 1% 1% 5% 1%;
-    order: 1px solid #fff;
-    padding: 10%;
-    width: 70%;
-    ax-width: 450px;
+    margin: 5% 1% 5% 1%;
+    border: .5px dashed #fff;
+    padding: 5%;
+    width: 80%;
     display: grid;
     position: absolute;
     font-size: 30px;
     letter-spacing: 2px;
     font-family: 'Amatic SC', cursive;
-    min-height: 100px;
+    min-height: 200px;
     height: auto;
     background-color: rgba(155,0,0,.2);
 
