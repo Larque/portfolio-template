@@ -60,11 +60,11 @@ body {
     background-repeat: repeat-x;
 	   background-position: top center;
 	 width: 80%;
-  	ax-width: 80em;
+
   	min-width: 600px;
     margin: 0 10% 0px 10%;
    position: relative;
-    min-height: 380vh;
+    min-height: 350vh;
     bottom: 0;
 
 
@@ -474,9 +474,9 @@ background-color: black;
   	position: absolute;
   	z-index: 100;
   	min-height: 10em;
-  	max-height: 10em;
+  	max-height: 180px;
   	min-width: 400px;
-  	ax-width: 800px;
+
   	color: #fff;
 
       margin: 100px 10% 0 10%;
