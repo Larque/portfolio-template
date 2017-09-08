@@ -1,6 +1,14 @@
-a { color: inherit; } 
+a { color: inherit; }
 
 html { overflow-x: hidden; }
+
+img {
+  border: transparent;
+  text-decoration: none;
+}
+
+img {border:none!important; text-decoration:underline!important;}
+a {border:none!important; text-decoration:underline!important;}
 
 body {
 	height: 100%;
@@ -10,13 +18,13 @@ body {
     osition: absolute;
     adding: 0;
     ottom: 0;
-}	
+}
 
 .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-   
+
 
 }
 
@@ -29,7 +37,7 @@ body {
     border-radius: 6px;
     padding: 5px 0;
 
-    
+
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
@@ -58,7 +66,7 @@ body {
    position: relative;
     min-height: 380vh;
     bottom: 0;
-    
+
 }
 
 
@@ -79,7 +87,7 @@ body {
     margin: 0px 10% 0 10%;
   	min-width: 500px;
     align-content: center;
-    in-height: calc(100% - 60px); 
+    in-height: calc(100% - 60px);
     height: 220vh;
     z-index: -100;
 }
@@ -134,16 +142,16 @@ a:link {
 }
 
 /*=======================================
-    		ABOUT - background 
+    		ABOUT - background
 =======================================*/
 
 .table1 {
 	padding-right: 2em;
   	border-collapse: collapse;
-	background: #161343; 
+	background: #161343;
 	opacity: 1;
-	-moz-opacity: 1;  
-	 -khtml-opacity: 1;  
+	-moz-opacity: 1;
+	 -khtml-opacity: 1;
 	 filter: alpha(opacity=100); /* For IE8 and earlier */
 	z-index: 1;
 	width: 80%;
@@ -152,9 +160,9 @@ a:link {
 	height: 40em;
 	min-width: 16em;
 	max-width: 35em;
-	border-radius: 8em;	
+	border-radius: 8em;
 	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
+	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -172,17 +180,17 @@ a:link {
   	border-collapse: collapse;
 	position: relative;
 	idth: 50%;
-	z-index: 10001;	
+	z-index: 10001;
 	argin-left: 25%;
 	argin-top: 4em;
-	
+
 }
 
 
 /*------------------------------
 		Famous Bird Watchers
 -------------------------------*/
-.table3 { 
+.table3 {
   	border-collapse: collapse;
 	z-index: 10;
 	background: #444;
@@ -194,9 +202,9 @@ a:link {
 	max-height: 30em;
 	top: 100em;
 	min-width: 26em;
-	max-width: 32em;	
+	max-width: 32em;
 	left: 0%;
-	border-radius: 15px;	
+	border-radius: 15px;
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -205,7 +213,7 @@ a:link {
 
 }
 
-table3-1 { 
+table3-1 {
   	border-collapse: collapse;
 	z-index: 10;
 	background: #000;
@@ -218,16 +226,16 @@ table3-1 {
 	max-height: 30em;
 	top: 130em;
 	min-width: 16em;
-	max-width: 38em;	
+	max-width: 38em;
 	left: 0%;
-	border-radius: 2em;	
+	border-radius: 2em;
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	-o-transform: translate(-50%, -50%);
 	ransform: translate(-50%, -50%);
 	background-color: black;
-	
+
 
 }
 
@@ -241,7 +249,7 @@ table3-1 {
     padding: 0px;
     height: 50px;
     position: relative;
-    bottom: 0px; 
+    bottom: 0px;
     margin: 0 10% 0 10%;
     min-height: 50px;
     width: 80%;
@@ -254,10 +262,10 @@ table3-1 {
     padding: 0px;
     margin: 0 auto;
     position: relative;
-    bottom: 0px; 
+    bottom: 0px;
     min-height: 400px;
     height: 400px;
-    
+
 }
 
 .info-footer-text1 {
@@ -272,7 +280,7 @@ table3-1 {
     color: #fff;
      font-size: 25px;
     line-height: 8px;
-    
+
 }
 
 .info-footer-text3 {
@@ -289,16 +297,16 @@ table3-1 {
     font-size: 25px;
     color: #fff;
 }
-    
+
 .icon-space {
     margin: 15px;
-    
+
 }
 
 #footer-text1 {
     height: 100px;
-    
-    
+
+
 }
 
 /*-----------------------------------------------------------------------
@@ -308,19 +316,19 @@ table3-1 {
 -------------------------------------------------------------------------*/
 
 #tabtable {
-	top: 0em;	
+	top: 0em;
 	left: 0%;
 	min-width: 60em;
-	max-width: 80em;	
- 	border: 3em solid red; 
+	max-width: 80em;
+ 	border: 3em solid red;
  	width: 100%;
  	Height: 50em;
  	position: absolute;
 	background-repeat: repeat-x;
 	background-position: top center;
 	opacity: .20;
-	-moz-opacity: 0.3;  
-	-khtml-opacity: 0.3;  
+	-moz-opacity: 0.3;
+	-khtml-opacity: 0.3;
     	filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 
@@ -335,7 +343,7 @@ table3-1 {
 .back {
 	background: url(https://cloud.githubusercontent.com/assets/7917600/12638433/e906afb2-c551-11e5-87bf-e74ebb6cace5.png) no-repeat 0 0;
  	background-position: top center;
- 	opacity: 0.3; 
+ 	opacity: 0.3;
 	filter: alpha(opacity=40); /* For IE8 and earlier */
 	border: .25em solid #ff4f5f;/* #ff425a */
 	border-right: 0px;
@@ -348,8 +356,8 @@ table3-1 {
 	max-height: 30em;
 	margin-left: -.1%	;
 	border-top: .25em solid #111a9f;
-	
-	
+
+
 }
 
 .birds-text1 {
@@ -360,8 +368,8 @@ table3-1 {
     padding: 10px;
     font-size: 28px;
     margin: 100px 0 0 0;
- 
-    
+
+
 }
 
 #worldmap {
@@ -379,7 +387,7 @@ table3-1 {
     padding: 0px;
     align-content: center;
     ext-align: center;
-    
+
 }
 
 .list-item td {
@@ -388,7 +396,7 @@ table3-1 {
 }
 
 #namerica {
-background-color: cadetblue;      
+background-color: cadetblue;
 }
 #samerica {
 background-color: orangered;
@@ -400,7 +408,7 @@ background-color: darkblue;
 background-color: forestgreen;
 }
 #asia {
-background-color: saddlebrown;
+background-color: #B49D00;
 }
 #australia {
 background-color: purple;
@@ -421,15 +429,15 @@ background-color: black;
     isplay: block;
     margin: 0 auto;
     in-height: 35%;
-  
-    
+
+
 }
 
 .list-table {
     text-align: center;
       color: beige;
    margin: 0 auto;
-    text-align: center; 
+    text-align: center;
     loat: left;
      border: 1px solid #fff;
     padding: 5px 10px 10px 10px;
@@ -450,13 +458,13 @@ background-color: black;
     opacity: .5;
      width: 100%;
     margin: 0 5% 0 %5;
-    
+
 }
 /*-------------------------------------
-    		"website name" 
+    		"website name"
 ---------------------------------------*/
 .back2 {
- 	
+
 	border: 1em solid #ffffff;
 	position: absolute;
 	z-index: 100;
@@ -464,8 +472,8 @@ background-color: black;
 	max-height: 10em;
 	min-width: 500px;
 	max-width: 800px;
-	color: #fff;	
-	
+	color: #fff;
+
     margin: 100px 10% 0 10%;
     height: 100%;
 	width: 80%;
@@ -480,10 +488,10 @@ img.ri {
 	border-radius: 5em;
 	box-shadow: 0 3em 6em rgba(0,0,0,0.9);
 }
-		
-img.ri:empty {	
-	top: 50%;	
-	left: 50%;	
+
+img.ri:empty {
+	top: 50%;
+	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -506,14 +514,14 @@ img.ri:empty {
 	min-height: 25em;
 	margin: auto;
  }
- 
-.home-image {   	
+
+.home-image {
    width: 10em;
     height: 10em;
     overflow: hidden;
     margin: 1em;
     position: relative;
-    
+
 }
 
 
@@ -530,9 +538,9 @@ img.ri:empty {
     	right: 0px;
 	top: 0px;
     	margin-top: 45px;
-	
-}	
-	
+
+}
+
 
 /*-----------------------------------------------------------------------
 -------------------------------------------------------------------------
@@ -550,19 +558,19 @@ img.ri:empty {
 	font-family: Arial Black, Gadget, sans-serif;
  	min-height: 10em;
     	display: table-cell;
-    	
 
-}	
+
+}
 
 .style4 {
   	font-size: 1em;
   	color: #FFFFFF;
-  	font-family: Times New Roman,Georgia,Serif;	
+  	font-family: Times New Roman,Georgia,Serif;
 	position:relative;
   	bottom:-2px;
-    	
-	
-	
+
+
+
 }
 .style5 {
   	font-size: 1em;
@@ -571,21 +579,21 @@ img.ri:empty {
 	position:relative;
     	bottom:.25em;
     	vertical-align:bottom;
-		
+
 }
 
 .text-style1 {
 	text-align: center;
 	color: #fff;
 	font-size: 24px;
- 	font-family: 'Amatic SC', cursive; 
-	
+ 	font-family: 'Amatic SC', cursive;
+
 }
 .text-style-h1 {
     text-align: center;
 	color: #fff;
 	font-size: 36px;
- 	font-family: 'Amatic SC', cursive; 
+ 	font-family: 'Amatic SC', cursive;
     font-weight: 700;
 }
 
@@ -595,26 +603,26 @@ img.ri:empty {
 
 .style6 {
 	font-size: 20px;
-	color: #FFFFFF; 
+	color: #FFFFFF;
 	position:relative;
   	top: .25em;
   	left: -1em;
     vertical-align:bottom;
-    font-family: 'Pacifico', cursive; 
-	
+    font-family: 'Pacifico', cursive;
+
 }
 .style8 {
 	font-size: 48px;
   	color: #FFFFFF;
   	font-family: Arial Black, Gadget, sans-serif;
-	
-	
+
+
 }
 
 .tabfont1 {
-	
+
   	font-size: 18px;
-	font-family: 'Amatic SC', cursive; 
+	font-family: 'Amatic SC', cursive;
    	position: relative;
    	top: 30%;
    	left: 0em;
@@ -643,7 +651,7 @@ basePort1 {
 	border-radius: 1em;
 	text-align: center;
 	margin-top: -30em;
-    	 
+
 }
 
 /*==================================================================
@@ -657,7 +665,7 @@ basePort1 {
 	width: 15%;
 	border-bottom-left-radius: 1em;
 	border-bottom-right-radius: 1em;
-	border-top-left-radius: 0em;	
+	border-top-left-radius: 0em;
 	color: #ffffff;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
 	background-image: -webkit-linear-gradient(145deg, #000044, #005fff,#001fff);
@@ -671,8 +679,8 @@ basePort1 {
 	padding-left: 1em;
 	max-width: 15em;
 	min-width: 10em;
-    
-	
+
+
 }
 
 tabStyle2 {
@@ -681,7 +689,7 @@ tabStyle2 {
 	opacity: 0.95;
     	filter: alpha(opacity=40);
 	z-index: 1000;
-	color: #ffffff;/*#f315ca;#599CFF;*/ 
+	color: #ffffff;/*#f315ca;#599CFF;*/
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#110011), to(#440011));
 	background-image: -webkit-linear-gradient(left, #1f1118, #550011);
 	background-image: -moz-linear-gradient(top, #000000,#5f5f9f, #111111);/*#fa00ff*/
@@ -706,7 +714,7 @@ tabStyle2 {
   	z-index: -4;
 	margin-top: 0em;
 	margin-left: 50%;
-		
+
 }
 .tab3 {
  	position: fixed;
@@ -714,7 +722,7 @@ tabStyle2 {
   	z-index: -3;
 	margin-top: 0em;
 	margin-left: 65%;
-		
+
 }
 .tab4 {
  	position: fixed;
@@ -722,7 +730,7 @@ tabStyle2 {
   	z-index: -2;
 	margin-top: 0em;
 	margin-left: 80%;
-	padding-right: -8em;	
+	padding-right: -8em;
 }
 
 
@@ -745,7 +753,7 @@ tabStyle2 {
 	border-left: 0px;
 	max-width: 15em;
 	min-width: 10em;
-	
+
 
 }
 active2 {
@@ -762,7 +770,7 @@ active2 {
 	border-left: .25em solid #aa13ad;
 	border-top: 0px;
 	border-bottom-left-radius: 1em;
-	
+
 
 
 }
@@ -781,7 +789,7 @@ active2 {
 	position:relative;
   	bottom: 56em;
     `	vertical-align:top;
-	
+
 }
 
 /*=================================
@@ -805,7 +813,7 @@ active2 {
   	text-align: right;
 	argin-top: 3em;
 	margin-right: 20px;
-   
+
 }
 
 
@@ -824,8 +832,8 @@ stop {
 	z-index: 1000;
 	bottom: 35em;
 	opacity: 0.3;
-	-moz-opacity: 0.3;  
-    	-khtml-opacity: 0.3;  
+	-moz-opacity: 0.3;
+    	-khtml-opacity: 0.3;
     	filter: alpha(opacity=70); /* For IE8 and earlier */
 	color: #ffffff;
 
@@ -852,13 +860,13 @@ stop {
 	background-image: -0-linear-gradient(left, #111111, #440011);
 	z-index: 4;
 	opacity: 0.9;
-	-moz-opacity: 0.3;  
-    	-khtml-opacity: 0.3;  
+	-moz-opacity: 0.3;
+    	-khtml-opacity: 0.3;
     	filter: alpha(opacity=70); /* For IE8 and earlier */
 	position: absolute;
 	margin-top: -.1em;
 	z-index: 1000;
-	
+
 }
 
 
@@ -907,7 +915,7 @@ sidetab4.stick {
 Text: "Brasslark"
 =================================*/
 #intro {
-	
+
     text-align: center;
 	color: #fff;
 	font-size: 50px;
@@ -916,7 +924,7 @@ Text: "Brasslark"
 	border-radius: .5em;
  	font-family: Arial Black, Gadget, sans-serif;
 	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
+	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -924,8 +932,8 @@ Text: "Brasslark"
 	width: 10em;
 	position: relative;
     background-clip:padding-box;
-    font-family: 'Pacifico', cursive; 
-    
+    font-family: 'Pacifico', cursive;
+
 }
 
 #subtitle {
@@ -935,14 +943,14 @@ Text: "Brasslark"
 	font-size: 40px;
 	margin-top: -45px;
 	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
+	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
 	transform: translate(-50%, 0%);
 	width: 400px;
 	position: relative;
-    font-family: 'Amatic SC', cursive; 
+    font-family: 'Amatic SC', cursive;
     font-weight: 800;
     background-color: rgba(0,255,255,.5);
     border-radius: 25px;
@@ -960,9 +968,9 @@ Title: "Famous Bird Watchers"
 	font-size: 40px;
 	margin-top: -90px;
 	border-radius: .5em;
- 	font-family: 'Amatic SC', cursive; 
+ 	font-family: 'Amatic SC', cursive;
 	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
+	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -985,7 +993,7 @@ Text: "CONTACT"
 	border-radius: .5em;
  	font-family: Arial Black, Gadget, sans-serif;
 	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
+	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -1008,10 +1016,10 @@ sidetabs {
 	width: 82%;
 	border: .15em solid white;
 	background: #fff;
-	position: absolute;	
+	position: absolute;
 	z-index: 1000;
-	
-} 
+
+}
 
 #test {
 	margin-left: 0em;
@@ -1021,11 +1029,11 @@ sidetabs {
 	min-width: 40%;
   	max-width: 95%;
 	min-height: 2.5em;
-	max-height: 15em; 
+	max-height: 15em;
 	height: 2em;
-	z-index: 1000;	
+	z-index: 1000;
 	left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
+	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -1072,8 +1080,8 @@ sidetabs {
     osition: relative;
     top: 100px;
     min-width: 400px;
-    
-    
+
+
 }
 
 #about-text {
@@ -1090,7 +1098,7 @@ sidetabs {
 	z-index: 50;
     top: 50px;
     text-align: justify;
-    
+
 }
 
 .gutter {
@@ -1101,7 +1109,7 @@ sidetabs {
 	box-shadow: 0 3em 6em rgba(0,0,0,0.9);
 	left: 50%;
 	top: -2em;
-	-webkit-transform: translate(-50%, 0%);	
+	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -1132,7 +1140,7 @@ sidetabs {
 
 
 
-td { 	
+td {
 	order: .1em solid #fff;
 	order: .1em inset blue;
 }
@@ -1147,15 +1155,15 @@ td {
 }
 
 .link-text {
-     font-family: 'Amatic SC', cursive; 
+     font-family: 'Amatic SC', cursive;
     color: #fff;
     width: 30%;
     display: inline-block;
     position: absolute;
     float: left;
     top: 100px;
-   
-    
+
+
 }
 
 /*=================================
@@ -1173,7 +1181,7 @@ td {
 	width: 9.25em;
 	left: 50%;
 	text-align: center;
-	-webkit-transform: translate(-50%, 0%);	
+	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -1182,7 +1190,7 @@ td {
     	filter: alpha(opacity=60); /* For IE8 and earlier */
     font-weight: 500;
     overflow-x: hidden;
-    overflow-y: hidden; 
+    overflow-y: hidden;
 
 }
 
@@ -1200,7 +1208,7 @@ home-bottom-box {
 	background-color: #afffff;
 	bottom: -53em;
 	Left: 50%;
-	-webkit-transform: translate(-50%, 0%);	
+	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -1219,8 +1227,8 @@ home-bottom-box-text {
 	top: 0em;
 	Left: 50%;
 	width: 30em;
-	height: 8em;	
-	-webkit-transform: translate(-50%, 0%);	
+	height: 8em;
+	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -1255,7 +1263,7 @@ home-bottom-box-text {
 	width: 20em;
 	margin: auto;
  	position: absolute;
- 	-webkit-transform: translate(-50%, 0%);	
+ 	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -1277,7 +1285,7 @@ home-bottom-box-text {
 	margin: auto;
 	margin-left: 15em;
  	position: absolute;
- 	-webkit-transform: translate(-50%, 0%);	
+ 	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -1300,7 +1308,7 @@ home-bottom-box-text {
 	top: 10em;
 	margin-left: 35em;
  	position: absolute;
- 	-webkit-transform: translate(-50%, 0%);	
+ 	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -1314,15 +1322,15 @@ home-bottom-box-text {
 #quote {
 	position: absolute;
 	text-align: center;
-	
+
 	font-size: 30px;
-   font-family: 'Amatic SC', cursive; 
+   font-family: 'Amatic SC', cursive;
     font-weight: 700;
 	top: 650px;
 	Left: 50%;
 	width: 600px;
-	height: 380px;	
-	-webkit-transform: translate(-50%, 0%);	
+	height: 380px;
+	-webkit-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-ms-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
@@ -1330,7 +1338,7 @@ home-bottom-box-text {
     padding: 45px;
    background-image: url(img/Old-Paper-Texture-2.png);
     background-size: cover;
-   	color: #5f1f1f; 
+   	color: #5f1f1f;
         z-index:100;
 
 }
@@ -1353,7 +1361,7 @@ home-bottom-box-text {
 =================================*/
 
 .about-text-h1 {
-   
+
     margin: 75px 0 0 0;
 }
 
@@ -1362,13 +1370,16 @@ home-bottom-box-text {
 =================================*/
 
 .fact-card {
-    width: 80%;
-    margin: 5% 5% 5% 5%;
-    height: 300px;
+    idth: 90%;
+    margin: 1% 5% 5% 5%;
+    eight: 300px;
     ackground-color: #fff;
-    vertical-align: middle; 
-    position: relative;
-  
+    vertical-align: middle;
+    osition: relative;
+    min-width: 300px;
+		ackground-color: red;
+
+
 }
 
 .fact-1 {
@@ -1381,10 +1392,11 @@ home-bottom-box-text {
     padding: 10px;
     color: #fff;
     vertical-align: text-top;
-    min-height: 800px;
+    min-height: 200px;
     position: relative;
      min-height: 300px;
     height: 200px;
+    max-height: 300px;
 }
 
 .fact-text {
@@ -1397,9 +1409,58 @@ home-bottom-box-text {
     position: absolute;
     font-size: 20px;
     letter-spacing: 2px;
-    font-family: 'Amatic SC', cursive; 
+    font-family: 'Amatic SC', cursive;
     min-height: 100px;
     height: 70%;
-    
+
 }
 
+/*=================================
+         		facts page alternative
+=================================*/
+.fact-cardb {
+    width: 90%;
+    margin: 1% 5% 5% 5%;
+    eight: 300px;
+    ackground-color: #fff;
+    vertical-align: middle;
+    osition: relative;
+    min-width: 300px;
+		ackground-color: red;
+
+
+}
+
+.fact-1b {
+    width: 50%;
+    position: relative;
+    vertical-align: middle;
+    display: table-cell;
+    margin: 5% 0 5% 0;
+    border: 1px solid white;
+    padding: 10px;
+    color: #fff;
+    vertical-align: text-top;
+    min-height: 200px;
+    position: relative;
+     min-height: 300px;
+    height: 200px;
+    max-height: 300px;
+}
+
+.fact-textb {
+    margin: 1% 1% 1% 1%;
+    border: 1px solid #fff;
+    padding: 5%;
+    width: 82%;
+    ax-width: 450px;
+    display: grid;
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Amatic SC', cursive;
+    min-height: 100px;
+    height: 70%;
+		vertical-align: middle;
+
+}
